@@ -18,7 +18,7 @@ def home():
 ><ol style="list-style-position: inside"
 ><li>Linear Text Snake: {escape("/linear/<w>/<level>/<o>")}</li
 ><li>Sine Test Snake: {escape("/sine/<w>/<x_scale>/<amp>/<level>")}</li
-><li>Helix Test Snake: {escape("/sin/<w>/<x_scale>/<amp>/<level>")}</li
+><li>Helix Test Snake: {escape("/helix/<w>/<x_scale>/<amp>/<level>")}</li
 ></ol>
 </div>
 <body>
