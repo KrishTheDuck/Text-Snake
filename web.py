@@ -18,6 +18,7 @@ def home():
 ><ol style="list-style-position: inside"
 ><li>Linear Text Snake: {escape("/linear/<w>/<level>/<o>")}</li
 ><li>Sine Test Snake: {escape("/sine/<w>/<x_scale>/<amp>/<level>")}</li
+><li>Helix Test Snake: {escape("/sin/<w>/<x_scale>/<amp>/<level>")}</li
 ></ol>
 </div>
 <body>
@@ -49,6 +50,12 @@ def sine(w, x_scale, amp, level):
 @app.route('/linear/<w>/<level>/<o>', methods=["GET"])
 def linear(w, level, o):
     text = Caterpillar.linear_print(str(w), int(level), int(o))
+    return f'<!DOCTYPE html><div style="white-space: pre-wrap">{text}</div>'
+
+
+@app.route('/sine/<w>/<x_scale>/<amp>/<level>', methods=['GET'])
+def helix(w, x_scale, amp, level):
+    text = Caterpillar.helix_print(str(w), int(x_scale), int(amp), int(level))
     return f'<!DOCTYPE html><div style="white-space: pre-wrap">{text}</div>'
 
 
