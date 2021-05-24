@@ -7,5 +7,7 @@ And we like coding.
 
 <p>What can you do?
 
-<a href="https://bored.krishsridhar.repl.co" title="website" style="font-size:20px">Click here for the website</a>
+<p>Want a text snake copypasta?
+
+<a href="https://bored.krishsridhar.repl.co" title="website" style="font-size:20px">have fun.</a>
 </div>
