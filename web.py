@@ -22,19 +22,19 @@ def home():
 </div>
 <body>
 <p style="text-align:left;color:red">
-	<u>Key:</u><ul>
-			<li>w → the word to be snakified
-			<li>level → the highest number of spaces
-			<li>o → the number of oscillations
-			<li>x_scale → vertical stretch
-			<li>amp → amplitude (of sine)
-		</ul>
+<u>Key:</u><ul>
+<li>w → the word to be snakified
+<li>level → the highest number of spaces
+<li>o → the number of oscillations
+<li>x_scale → vertical stretch
+<li>amp → amplitude (of sine)
+</ul>
 </p>
 </body> 
 <p style="text-align:left;color:green">
-	<u>Our githubs:<u
-	>&nbsp&nbsp<a href="https://github.com/KrishTheDuck" title="Krish" style="font-size:15px">KrishTheDuck</a>
-		<a href="https://github.com/colinhartigan" title="Colin" style="font-size:15px">Colin Hartigan</a>
+<u>Our githubs:<u
+>&nbsp&nbsp<a href="https://github.com/KrishTheDuck" title="Krish" style="font-size:15px">KrishTheDuck</a>
+<a href="https://github.com/colinhartigan" title="Colin" style="font-size:15px">Colin Hartigan</a>
 </p>
 </html>
 '''
