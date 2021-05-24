@@ -53,7 +53,7 @@ def linear(w, level, o):
     return f'<!DOCTYPE html><div style="white-space: pre-wrap">{text}</div>'
 
 
-@app.route('/sine/<w>/<x_scale>/<amp>/<level>', methods=['GET'])
+@app.route('/helix/<w>/<x_scale>/<amp>/<level>', methods=['GET'])
 def helix(w, x_scale, amp, level):
     text = Caterpillar.helix_print(str(w), int(x_scale), int(amp), int(level))
     return f'<!DOCTYPE html><div style="white-space: pre-wrap">{text}</div>'
