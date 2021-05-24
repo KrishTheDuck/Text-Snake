@@ -18,6 +18,7 @@ class Caterpillar:
 
 	@staticmethod
 	def sin_print(w: str, x_scale: int, amp: int, level: int) -> str:
+		# i never skip list comprehension day -colinhartigan
 		'''
 		print a sin-waved text snake
 		@param w: the string to snakeify
